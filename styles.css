@@ -299,7 +299,6 @@ body {
   border-radius: 24px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
 }
 
 
@@ -604,8 +603,6 @@ body {
   height: 12px;
   border-radius: 50%;
   background: #E5E5E5;
-  cursor: pointer;
-  transition: background 0.3s ease;
   display: inline-block;
 }
 .testimonial-dots span:first-child {
@@ -653,15 +650,15 @@ body {
   color: #5E6282;
 }
 .testimonial-preview {
-  background: #fff;
+  background: #F7F7F7;
   border-radius: 20px;
   padding: 18px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.10);
   position: absolute;
-  top: 30px;
-  right: -40px;
+  top: 300px;
+  right: 50px;
   z-index: 1;
-  width: 180px;
+  width: 450px;
 }
 .testimonial-preview > p:first-child {
   font-family: Poppins;
@@ -712,6 +709,7 @@ body {
 .testimonial-logos img {
   height: 100px;
   width: 100px;
+  margin-top: 20px;
 }
 
 /* Subscribe Section */
@@ -727,18 +725,16 @@ body {
 }
 .subscribe > img {
   position: absolute;
-  top: -40px;
-  right: -40px;
-  width: 180px;
-  height: 180px;
-  opacity: 0.12;
+  right: 20px;
+  width: 50px;
+  height: 50px;
   z-index: 1;
 }
 .subscribe > h4 {
   font-family: Poppins;
   font-weight: 600;
   font-size: 24px;
-  color: #1E1D4C;
+  color: #5E6282;
   text-align: center;
   margin-bottom: 40px;
   position: relative;
@@ -796,32 +792,6 @@ body {
   cursor: pointer;
   transition: background 0.3s ease;
   box-shadow: 0 5px 15px rgba(241, 165, 1, 0.15);
-}
-/* Decorative background patterns */
-.subscribe::before {
-  content: '';
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 100px;
-  height: 100px;
-  background-image: 
-    radial-gradient(circle, rgba(255, 255, 255, 0.1) 2px, transparent 2px);
-  background-size: 20px 20px;
-  z-index: 1;
-}
-
-.subscribe::after {
-  content: '';
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  width: 150px;
-  height: 150px;
-  background-image: 
-    radial-gradient(circle, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
-  background-size: 15px 15px;
-  z-index: 1;
 }
 
 /* Footer Section */
